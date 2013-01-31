@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" /> 
+		<title>Fernando Murrugarra-P1</title>
+
+		<link rel="stylesheet" href="../vamp2/css/reset.css" type="text/css"></style>
+		<link rel="stylesheet" href="../vamp2/css/style.css" type="text/css"></style>
+		<script src="../vamp/js/custom.js" type="text/javascript"></script>
+
+	</head>
+    
+	<body>
+		<div class="header">
+			<div class="title">
+				<h2 class="header_title">Welcome To The Vampire Association of Transylflorida</h2>
+			</div>
+		</div>
+        
+		<div id="regular_body">	
+			<div id="discounts_area">
+				<p id="discounts_description">Drag a coupon to a membership and see what happens!</p>
+
+				<div id="discounts">
+					<div id="original_holder1" ondrop="drop2(event)" ondragover="allowDrop(event)">
+						<img src="css/images/coupon.jpg" alt="$5 coupon" draggable="true" ondragstart="drag(event)" id="drag1" />
+					</div>
+					<div id="original_holder2" ondrop="drop2(event)" ondragover="allowDrop(event)">
+						<img src="css/images/coupon2.jpg" alt="$10 coupon" draggable="true" ondragstart="drag(event)" id="drag2" />
+					</div>
+					<div id="original_holder3" ondrop="drop2(event)" ondragover="allowDrop(event)">
+						<img src="css/images/coupon3.jpg" alt="$15 coupon" draggable="true" ondragstart="drag(event)" id="drag3" />
+					</div>
+				</div>
+			</div>
+            
+			<div id="membership_area">
+				<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+					<p class="type_description" name="1">Type A Blood</p>
+				</div>
+				<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+					<p class="type_description">All Types</p>
+				</div>
+				<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+					<p class="type_description">Attorneys</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="finished_body">
+			<h1 id="thanks_message">Welcome to the Club!</h1>
+		</div>
+
+		<div class="footer"></div>
+	</body>
+</html>

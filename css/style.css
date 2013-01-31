@@ -1,0 +1,103 @@
+body {
+	background-color: #333;
+	background-image:url(images/hotel.jpg);
+	background-position:center;
+	background-size:cover;
+	padding-top:200px;
+}
+
+/* --------------------------- Header ------------------------------ */
+
+
+.title {
+	width: 800px;
+	padding: 10px 50px 3px 30px;
+	border-radius: 10px;
+	padding-left:650px;
+	padding-right:650px;
+	
+	
+}
+
+.header_title {
+	font-family:"MS Serif", "New York", serif;
+	font-size: 30px;
+	font-style:oblique;
+	color: #FFFFFF;
+	text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+		}
+
+
+/* --------------------------- /Header ------------------------------ */
+
+#discounts_area {
+	text-align: center;
+	height: 265px;
+}
+
+#discounts_header {
+	margin-bottom: 10px;
+	margin-top:20px;
+	color: #cc0000;
+	font-size: 34px;
+	font-family: "MS Serif", "New York", serif;
+}
+
+#discounts_description {
+	margin-bottom: 20px;
+	color: #FFFFFF;
+	font-size:18px;
+	font-style:oblique;
+	font-family: "MS Serif", "New York", serif;
+}
+
+#discounts {
+	height: 200px;
+	width: 850px;
+	margin:0 auto;
+}
+
+.type_description {
+	margin-bottom: 12px;
+	color: red;
+	font-size: 40px;
+	font-family: arial;
+}
+
+#original_holder1, #original_holder2, #original_holder3 {
+	float:left; 
+	width:250px; 
+	height:150px;
+	margin:20px 15px;
+}
+
+#membership_area {
+	margin:40px 0px;
+	height:250px;
+	width: 975px;
+	margin:0 auto;
+}
+
+#div1, #div2, #div3 {
+	float:left; 
+	width:275px; 
+	height:200px; 
+	margin:10px;
+	padding:10px;
+	border:5px solid #FFF;
+	text-align: center;
+}
+
+#finished_body {
+	position: absolute;
+	margin: -300px auto;
+	width:100%;
+	text-align: center;
+	visibility: hidden;
+}
+
+#thanks_message {
+	color: #FFFFFF;
+	font-size: 50px;
+	font-family: "MS Serif", "New York", serif;
+}
